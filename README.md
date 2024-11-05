@@ -6,6 +6,7 @@ Comparison between A* for Romanian cities problem, using f(n)=a*g(n) + b*h(n) fo
 - astar.cpp handle the algorithm, manages input, output, and the main program logic.
 
 **Results and Analysis**
+
 By analyzing a_star_results.csv, we can observe how varying the values of 
 𝑎 and 𝑏 impacts the algorithm’s efficiency. For example:
 - Higher values of 𝑏 emphasize the heuristic, which may decrease the nodes explored by prioritizing paths closer to Bucharest.
@@ -13,6 +14,7 @@ By analyzing a_star_results.csv, we can observe how varying the values of
 The project showcases the trade-offs between heuristic-driven and path-cost-driven search strategies in the A* algorithm and offers insights into balancing efficiency with optimality.
 
 **Bibliograpy**
+
 Russel and Norvig - Artifficial Intelligence, A Modern Approach, 2nd Edition. 
 Chapter 4. Informed Search and Exploration 
 
